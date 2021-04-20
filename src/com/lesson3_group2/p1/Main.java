@@ -14,6 +14,7 @@ public class Main {
         while(status){
         b = scanner.nextInt();
         if(b>a){
+
             System.out.println("Меньше!");
         }
         else if(a>b){
