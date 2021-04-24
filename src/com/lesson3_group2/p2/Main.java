@@ -26,6 +26,7 @@ public class Main {
 
             }
 
+
             System.out.print("*");  //строка с текстом
             int temp=(x-2-str.length())/2;
             for(int i=0;i<temp;i++){
