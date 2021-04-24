@@ -37,4 +37,10 @@ public class Turtle extends Animal {
         System.out.println("я молчу");
     }
 
+    @Override
+    public void sleep() {
+        System.out.println("я сплю");
+    }
+
+
 }

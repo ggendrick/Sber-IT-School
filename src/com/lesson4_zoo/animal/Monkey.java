@@ -37,4 +37,11 @@ public class Monkey extends Animal {
         System.out.println("я кричу");
     }
 
+    @Override
+    public void sleep() {
+        System.out.println("я сплю");
+    }
+
+
+
 }

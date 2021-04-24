@@ -33,9 +33,16 @@ public class Bear extends Animal {
 
     }
 
-    @Override //различный для всех  метод
-    public void say() {
-        System.out.println("я рычу");
+    @Override
+    public void sleep() {
+        System.out.println("я сплю");
     }
+
+    @Override
+    public void say() {
+        System.out.println("я сплю");
+    }
+
+
 
 }

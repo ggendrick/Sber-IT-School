@@ -36,5 +36,10 @@ public class Shark extends Animal {
     public void say() {
         System.out.println("я молчу");
     }
+    @Override
+    public void sleep() {
+        System.out.println("я сплю");
+    }
+
 
 }
