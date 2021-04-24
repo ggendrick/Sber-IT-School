@@ -36,4 +36,5 @@ public class Shark extends Animal {
     public void say() {
         System.out.println("я молчу");
     }
+
 }

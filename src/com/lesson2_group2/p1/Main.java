@@ -8,6 +8,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         String q = scanner.next();
+
         int b = scanner.nextInt();
         switch (q){
             case "+":

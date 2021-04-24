@@ -25,5 +25,6 @@ public abstract class Animal implements Say, Moove, Sleep {
     public abstract void eat();
 
 
+
 }
 

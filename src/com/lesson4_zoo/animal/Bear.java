@@ -37,4 +37,5 @@ public class Bear extends Animal {
     public void say() {
         System.out.println("я рычу");
     }
+
 }

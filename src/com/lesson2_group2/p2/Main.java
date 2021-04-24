@@ -10,6 +10,7 @@ public class Main {
         int b = scanner.nextInt();
         System.out.println(a.charAt(b-1));
 
+
 }
 
 }
