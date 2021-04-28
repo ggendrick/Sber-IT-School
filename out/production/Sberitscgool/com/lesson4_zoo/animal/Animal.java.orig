@@ -23,10 +23,6 @@ public abstract class Animal implements Say, Moove, Sleep {
     public abstract String getName();
 
     public abstract void eat();
-    public abstract void say();
-    public abstract void moove();
-    public abstract void sleep();
-
 
 
 

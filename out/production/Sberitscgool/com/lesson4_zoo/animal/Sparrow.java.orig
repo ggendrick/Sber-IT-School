@@ -37,11 +37,4 @@ public class Sparrow extends Animal {
         System.out.println("я чирикаю");
     }
 
-    @Override
-    public void sleep() {
-        System.out.println("я сплю");
-    }
-
-
-
 }
