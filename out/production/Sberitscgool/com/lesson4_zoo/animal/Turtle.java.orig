@@ -1,15 +1,15 @@
 package com.lesson4_zoo.animal;
 
-public class Sparrow extends Animal {
+public class Turtle extends Animal {
 
-    public Sparrow(){
-        super("неизвестный воробей");
+    public Turtle(){
+        super("неизвестная черепаха");
     }
 
-    public Sparrow(String name) {
+    public Turtle(String name) {
         super(name);
     }
-    public Sparrow(int name){super(name);}
+    public Turtle(int name){super(name);}
     @Override //общий метод
     public void setName(String name) {
         this.name=name;
@@ -22,26 +22,19 @@ public class Sparrow extends Animal {
 
     @Override //различный для всех метод
     public void eat() {
-        System.out.println("я ем семена");
+        System.out.println("я ем растения");
     }
 
 
     @Override //различный для всех метод
     public void moove(){
-        System.out.println("я лечу");
+        System.out.println("я ползу");
 
     }
 
     @Override //различный для всех  метод
     public void say() {
-        System.out.println("я чирикаю");
+        System.out.println("я молчу");
     }
-
-    @Override
-    public void sleep() {
-        System.out.println("я сплю");
-    }
-
-
 
 }
